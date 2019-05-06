@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-signature {
+  display: flex;
+  justify-content:
+}
+
+#logo-wagon {
+  height: 30px;
+}

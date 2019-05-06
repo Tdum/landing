@@ -1,0 +1,146 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500,700|Lato:400,700');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Lato';
+  color: #05004E;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cormorant Garamond';
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+/*@import url('components/header.css');
+*/
+
+.header {
+  display: flex;
+  height: 575px;
+  width: 100%;
+/*  align-items: center;
+  justify-content: center;*/
+}
+
+.header-content {
+/*  flex-grow: 1;*/
+  background-color : #f9f8eb;
+  width: calc(47% + 100px);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-signature {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 32px;
+
+
+}
+
+.header-value {
+  text-align: center;
+  top: 50%;
+  padding: 32px auto;
+  margin-top: 100px;
+}
+
+.header-cta {
+  text-align: center;
+  background-color: #FD5F00;
+  color: #f9f8eb;
+  width: auto;
+  border-radius: 2px;
+  padding: 16px 24px;
+  text-align: center;
+  margin-bottom: 160px;
+  font-weight: bolder;
+}
+
+.header-signature img {
+  height: 30px;
+
+}
+
+.triangle {
+    position: absolute;
+    top: 0px;
+    border-top: 610px solid #f9f8eb;
+    border-right: 90px solid transparent;
+}
+
+.image-hero {
+    width: 53%;
+    position: relative;
+    align-self: flex-end;
+}
+
+.image-hero img {
+/*  object-fit: cover;
+  justify-content: center;
+  flex-grow: 1;*/
+  width: 100%;
+  object-fit: cover;;
+  justify-content: center;
+}
+
+.container {
+    width: 900px;
+    margin: 100px auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.card h3 {
+  font-weight: bolder;
+}
+
+
+.card img {
+  height: 100px;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 60px;
+    background-color : #f9f8eb;
+}
+
+.footer a {
+    font-size: 30px;
+    color: #05004E;
+}
+
+
+.footer p {
+  color: #05004e;
+}
